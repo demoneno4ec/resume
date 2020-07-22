@@ -93,7 +93,9 @@ hr {
 }
 
 .personal-data {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
 }
 
 .personal-data__item {
@@ -200,17 +202,18 @@ hr {
 .skills > div{
     position: relative;
 }
-.skill svg {
-    width: 64px;
+.skill__icon {
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.skill {
+    position: absolute;
 }
 
 .skill:nth-child(1) {
     top: -64px;
     left: -128px;
-}
-
-.skill {
-    position: absolute;
 }
 
 .skill:nth-child(2) {
@@ -236,6 +239,16 @@ hr {
 .skill:nth-child(6) {
     top: 8px;
     left: 16px;
+}
+
+.skill:nth-child(7) {
+    top: -72px;
+    left: 20px;
+}
+
+.skill:nth-child(8) {
+    top: -56px;
+    left: 152px;
 }
 
 .skill:nth-child(odd) svg {
