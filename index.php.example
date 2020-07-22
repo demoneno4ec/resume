@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="/src/css/libs/destyle/destyle.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body class="resume">
+<header class="header resume__header">
+    <div class="resume__image-box">
+        <img src="/src/image/personal.jpg" class="resume__image" alt="Maxim Pestov"
+             title="Maxim Pestov"/>
+    </div>
+    <div class="header__info">
+        <h1 class="resume__owner">
+            <strong>Пестов Максим</strong>,
+            28 лет.
+        </h1>
+        <div class="resume__positions positions">
+            <div class="tag positions__position">
+                PHP middle-developer
+            </div>
+            <div class="tag positions__position">
+                Java junior-developer
+            </div>
+        </div>
+        <hr/>
+        <div class="header__personal personal-data">
+            <div class="birthday personal-data__birthday personal-data__item">
+                <svg class="personal-data__icon">
+                    <use href="/src/image/icons/sprite.svg#calendar"/>
+                </svg>
+                <div class="personal-data__name">Дата рождения:&nbsp;</div>
+                <div class="personal-data__value">08.05.1991</div>
+            </div>
+            <div class="experience personal-data__expirience personal-data__item">
+                <svg class="personal-data__icon">
+                    <use href="/src/image/icons/sprite.svg#star"/>
+                </svg>
+                <div class="personal-data__name">Опыт в IT:&nbsp;</div>
+                <div class="personal-data__value">c 2017 года</div>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="resume__main">
+    <section class="resume__section section">
+        <h2 class="section__title">О себе</h2>
+        <div class="section__description">
+            Я уверено чувствую себя в любой ситуации. Всегда готов к переменам.
+            Достигаю поставленных целей. Грамотно подхожу к распределению
+            ресурсов, для достижения конечного результата.
+            Люблю людей, которые любят свою работу. Верю что каждый человек
+            желает развития. Стараюсь избегать стрессовых ситуаций, но так же
+            знаю способы и этапы выхода из них.
+            Всегда готов взять ответственность за сделанную работу.
+            В свободное от работы время, читаю книгу
+            <a href="https://g.co/kgs/6tF9NZ">
+                "Совершенный код"
+            </a>; Езжу на велосипеде; Гуляю по городу; Читаю комментарии на
+            <a href="https://habr.com/ru/">
+                хабре
+            </a>.
+        </div>
+    </section>
+    <section class="resume__section section">
+        <h2 class="section__title">Образование</h2>
+        <div class="section__description">
+            <div class="education">
+                <div class="education__name">
+                    ФГБОУ «Казанский национальный исследовательский технический
+                    университет им. А.Н. Туполева - КАИ»
+                </div>
+                <div class="education__type">
+                    высшее (2008-2014гг.)
+                </div>
+                <div class="education__qualification">
+                    Квалификация: инженер-менеджер.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="resume__section section">
+        <h2 class="section__title">Навыки</h2>
+        <div class="section__description section__description_flex">
+            <div class="section__list">
+                <ul class="list">
+                    <li class="list__item">языки программирования: html, css,
+                        php, js, MySql, Java,
+                        Python;
+                    </li>
+                    <li class="list__item">выполнение проектных задач;</li>
+                    <li class="list__item">реализация сложных интеграционных
+                        решений;
+                    </li>
+                    <li class="list__item">конфигурирование сервера;</li>
+                    <li class="list__item">настройка автодеплоя;</li>
+                    <li class="list__item">использование docker-image;</li>
+                    <li class="list__item">оптимизация базы данных;</li>
+                    <li class="list__item">японский язык N5;</li>
+                    <li class="list__item">технический английский.</li>
+                </ul>
+            </div>
+            <div class="skills">
+                <div>
+                    <div class="skills__skill skill">
+                        <svg class="skill__icon">
+                            <use href="/src/image/icons/sprite.svg#java"/>
+                        </svg>
+                    </div>
+                    <div class="skills__skill skill">
+                        <svg class="skill__icon">
+                            <use href="/src/image/icons/sprite.svg#javascript"/>
+                        </svg>
+                    </div>
+                    <div class="skills__skill skill">
+                        <svg class="skill__icon">
+                            <use href="/src/image/icons/sprite.svg#python"/>
+                        </svg>
+                    </div>
+                    <div class="skills__skill skill">
+                        <svg class="skill__icon">
+                            <use href="/src/image/icons/sprite.svg#css"/>
+                        </svg>
+                    </div>
+                    <div class="skills__skill skill">
+                        <svg class="skill__icon">
+                            <use href="/src/image/icons/sprite.svg#mysql"/>
+                        </svg>
+                    </div>
+
+                    <div class="skills__skill skill">
+                        <svg class="skill__icon">
+                            <use href="/src/image/icons/sprite.svg#php"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br/>
+    <br/>
+    <br/>
+    <section class="resume__section section">
+        <h2 class="section__title">Опыт работы</h2>
+        <div class="section__description">
+            <table class="section__table table">
+                <tbody class="table__body">
+                <tr class="table__tr">
+                    <td class="table__spot table__th">Место работы</td>
+                    <td class="table__spot table__th table__point-name">
+                        Автодория
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Период работы</td>
+                    <td class="table__spot">Март 2020 — по настоящее время</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Должность</td>
+                    <td class="table__spot">full-stack</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Сайт</td>
+                    <td class="table__spot">
+                        <a href="https://www.itpark-kazan.ru/ru/node/465">
+                            itpark-kazan.ru/ru/node/465
+                        </a>
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">
+                        <div class="duties">
+                            <div class="duties__duty">Yii2</div>
+                            <div class="duties__duty">Laravel</div>
+                            <div class="duties__duty">Jquery</div>
+                            <div class="duties__duty">Vue.js</div>
+                            <div class="duties__duty">
+                                Рефакторинг кода с примесей jquery во vue а чистый vue
+                            </div>
+                            <div class="duties__duty">
+                                Организация переезда с Yii2 на Laravel
+                            </div>
+                            <div class="duties__duty">
+                                Разработка прототипов и UX дизайна
+                            </div>
+                            <div class="duties__duty">
+                                Внедрение современных практик, в код.
+                            </div>
+                            <div class="duties__duty">
+                                Разработка новых модулей.
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot table__th">Место работы</td>
+                    <td class="table__spot table__th table__point-name">
+                        codezavod
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Период работы</td>
+                    <td class="table__spot">Май 2019 — по настоящее время</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Должность</td>
+                    <td class="table__spot">PHP middle-developer</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Сайт</td>
+                    <td class="table__spot">
+                        <a href="https://codezavod.ru/">
+                            codezavod.ru
+                        </a>
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">
+                        <div class="duties">
+                            <div class="duties__duty">laravel</div>
+                            <div class="duties__duty">bitrix</div>
+                            <div class="duties__duty">Docker</div>
+                            <div class="duties__duty">Настройка автодеплоя в
+                                Git
+                            </div>
+                            <div class="duties__duty">Ревью кода.</div>
+                            <div class="duties__duty">Автоматизация внутренних
+                                процессов
+                            </div>
+                            <div class="duties__duty">Поддержание документации
+                                на проектах.
+                            </div>
+                            <div class="duties__duty">Оптимизация кода.</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot table__th">Место работы</td>
+                    <td class="table__spot table__th table__point-name">
+                        wellmedia
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Период работы</td>
+                    <td class="table__spot">Сентябрь 2018 — май 2019</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Должность</td>
+                    <td class="table__spot">PHP developer</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Сайт</td>
+                    <td class="table__spot">
+                        <a href="https://wellmedia.ru/">
+                            wellmedia.ru
+                        </a>
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">
+                        Разработка сайтов.
+                        Тех поддержка сайтов.
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot table__th">Место работы</td>
+                    <td class="table__spot table__th table__point-name">QSOFT
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Период работы</td>
+                    <td class="table__spot">Январь 2018 — май 2018</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Должность</td>
+                    <td class="table__spot">PHP junior-developer</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Сайт</td>
+                    <td class="table__spot">
+                        <a href="https://qsoft.ru/">
+                            qsoft.ru
+                        </a>
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">
+                        <ul class="duties">
+                            <li class="duties__duty">Поиск ошибок и
+                                исправление
+                            </li>
+                            <li class="duties__duty">Написание APi для
+                                мобильного приложения
+                            </li>
+                            <li class="duties__duty">Работа с bitrix.</li>
+                            <li class="duties__duty">Прямые запросы в базу
+                                данных.
+                            </li>
+                            <li class="duties__duty">Написание скриптов на
+                                обновлениеб азы данных на
+                                основе данных из файлов с расширением .csv .xls
+                            </li>
+                            <li class="duties__duty">Интеграция шаблонов</li>
+                            <li class="duties__duty">Написание собственных
+                                компонентов
+                            </li>
+                            <li class="duties__duty">Внедрение собственных
+                                решений в чужой код
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+<footer></footer>
+</body>
+</html>

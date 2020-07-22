@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'TTNorms';
-    src: url('src/fonts/TTNorms/TTNorms-Bold.ttf');
+    src: url('../fonts/TTNorms/TTNorms-Bold.ttf');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TTNorms';
-    src: url('src/fonts/TTNorms/TTNorms-Regular.ttf');
+    src: url('../fonts/TTNorms/TTNorms-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
