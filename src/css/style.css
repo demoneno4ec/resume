@@ -168,6 +168,9 @@ hr {
     padding: 8px 16px;
     font-size: var(--size-40);
 }
+.table__spot a{
+    color: var(--pink);
+}
 .table__th{
     font-size: var(--size-30);
     font-weight: bold;

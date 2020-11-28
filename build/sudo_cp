@@ -1,0 +1,17 @@
+#!/bin/bash
+
+WEB_STORAGE_PATH="/opt/registrator-web3/storage/configuration"
+
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 <source>"
+    exit 1;
+fi
+
+
+for F in `psql -Uregistrator -t -c 'select path from file_access.files'`; do
+if [[ $1 =~ ^${F}$ ]]; then
+    cp -fr $1 ${WEB_STORAGE_PATH}/
+    chown -r php-fpm:webserver ${WEB_STORAGE_PATH}/*
+fi
+done
+

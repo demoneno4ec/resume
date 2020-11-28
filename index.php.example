@@ -36,7 +36,7 @@
                 <div class="personal-data__name">Дата рождения:&nbsp;</div>
                 <div class="personal-data__value">08.05.1991</div>
             </div>
-            <div class="experience personal-data__expirience personal-data__item">
+            <div class="experience personal-data__experience personal-data__item">
                 <svg class="personal-data__icon">
                     <use href="/src/image/icons/sprite.svg#star"/>
                 </svg>
