@@ -60,10 +60,11 @@
             В свободное от работы время, читаю книгу
             <a href="https://g.co/kgs/6tF9NZ">
                 "Совершенный код"
-            </a>; Езжу на велосипеде; Гуляю по городу; Читаю комментарии на
-            <a href="https://habr.com/ru/">
-                хабре
-            </a>.
+            </a>; Катаюсь на велосипеде; Люблю розовый цвет.
+            <p>
+                <br/>
+                Ссылка на резюме: <a>https://github.com/demoneno4ec/resume</a>
+            </p>
         </div>
     </section>
     <section class="resume__section section">
@@ -83,22 +84,38 @@
             </div>
         </div>
     </section>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     <section class="resume__section section">
         <h2 class="section__title">Навыки</h2>
         <div class="section__description section__description_flex">
             <div class="section__list">
                 <ul class="list">
-                    <li class="list__item">языки программирования: html, css,
-                        php, js, MySql, Java,
-                        Python;
+                    <li class="list__item">
+                        языки программирования: html, css, php, js, mysql, postgresql, python, redis,
+                        <br/>
+                        rabbitmq, elasticsearch, cockroachdb, grpc, protobuf
                     </li>
+                    <li class="list__item">
+                        Изучал: java, kotlin, go
+                    </li>
+                    <li class="list__item">интеграция grpc + protobuf</li>
                     <li class="list__item">выполнение проектных задач;</li>
-                    <li class="list__item">реализация сложных интеграционных
-                        решений;
+                    <li class="list__item">
+                        реализация сложных интеграционных решений;
                     </li>
+                    <li class="list__item">организация бизнес процессов;</li>
+                    <li class="list__item">участие и формирование внутреннего микроклимата в команде;</li>
+                    <li class="list__item">организация и переезд монолита из laravel на symfony</li>
+                    <li class="list__item">внедрение централизованной локальной разработки</li>
                     <li class="list__item">конфигурирование сервера;</li>
                     <li class="list__item">настройка автодеплоя;</li>
-                    <li class="list__item">использование docker-image;</li>
+                    <li class="list__item">использование, сборка и регистрация docker-image;</li>
                     <li class="list__item">оптимизация базы данных;</li>
                     <li class="list__item">японский язык N5;</li>
                     <li class="list__item">технический английский.</li>
@@ -144,6 +161,20 @@
     <br/>
     <br/>
     <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     <section class="resume__section section">
         <h2 class="section__title">Опыт работы</h2>
         <div class="section__description">
@@ -152,12 +183,160 @@
                 <tr class="table__tr">
                     <td class="table__spot table__th">Место работы</td>
                     <td class="table__spot table__th table__point-name">
+                        Ayagroup
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Период работы</td>
+                    <td class="table__spot">Май 2021 — по настоящее время</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Должность</td>
+                    <td class="table__spot">team lead php-backend разработки</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Сайт</td>
+                    <td class="table__spot">
+                        <a href="https://ayagroup.ru/">
+                            ayagroup.ru
+                        </a>
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">
+                        <div class="duties">
+                            <div class="duties__duty">Laravel</div>
+                            <div class="duties__duty">Symfony</div>
+                            <div class="duties__duty">
+                                Вникал в бизнес потребности и искал наиболее оптимальные решения
+                            </div>
+                            <div class="duties__duty">
+                                Участие в арх комитете
+                            </div>
+                            <div class="duties__duty">
+                                Написание микросервисов
+                            </div>
+                            <div class="duties__duty">
+                                Интеграция с keycloack
+                            </div>
+                            <div class="duties__duty">
+                                Интеграция с postgresql, redis, rabitmq
+                            </div>
+                            <div class="duties__duty">
+                                Перевод очередей на rabbitmq с horizon + redis
+                            </div>
+                            <div class="duties__duty">
+                                Перевод логов на stdout
+                            </div>
+                            <div class="duties__duty">
+                                Настройка и внедрение локальной среды разработки, средствами docker-compose, .editorconfig, schema.xml для phpstorm
+                            </div>
+                            <div class="duties__duty">
+                                Рефакторинг и нормализация структуры базы данных
+                            </div>
+                            <div class="duties__duty">
+                                Перевод функционала из монолита на laravel в микросервисы
+                            </div>
+                            <div class="duties__duty">
+                                Организация работ по переводу функционала
+                            </div>
+                            <div class="duties__duty">
+                                Внедрение таких паттернов, как strategy, adapter
+                            </div>
+                            <div class="duties__duty">
+                                Внедрение в проект phpstan, phpunit, sonarqube
+                            </div>
+                            <div class="duties__duty">
+                                Помощь в иинтеграции phpstan, phpunit, sonarqube в ci/cd
+                            </div>
+                            <div class="duties__duty">
+                                Описание полной коллекции postman с проверкой на схему ответа
+                            </div>
+                            <div class="duties__duty">
+                                Помощь в интеграции newman тестов в ci/cd на основе postman коллекций
+                            </div>
+                            <div class="duties__duty">
+                                Разработка и внедрение grpc + protobuf на php
+                            </div>
+                            <div class="duties__duty">
+                                Перевод проекта с laravel 7.0 на 8.0
+                            </div>
+                            <div class="duties__duty">
+                                Перевод проекта с php 7.4 на 8.1
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot table__th">Место работы</td>
+                    <td class="table__spot table__th table__point-name">
+                        Совкомбанк
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Период работы</td>
+                    <td class="table__spot">Декабрь 2020 — Май 2021</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Должность</td>
+                    <td class="table__spot">middle php developer</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Сайт</td>
+                    <td class="table__spot">
+                        <a href="https://sovcombank.ru/">
+                            sovcombank.ru
+                        </a>
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">
+                        <div class="duties">
+                            <div class="duties__duty">Symfony</div>
+                            <div class="duties__duty">
+                                Написание микросервисов
+                            </div>
+                            <div class="duties__duty">
+                                Интеграция с goggle ldap
+                            </div>
+                            <div class="duties__duty">
+                                Интеграция с cockroachdb
+                            </div>
+                            <div class="duties__duty">
+                                Интеграция с rabbitmq
+                            </div>
+                            <div class="duties__duty">
+                                Интеграция с redis
+                            </div>
+                            <div class="duties__duty">
+                                Интеграция с s3
+                            </div>
+                            <div class="duties__duty">
+                                Интеграция уведомлений sms, email, во внутренний месенджер
+                            </div>
+                            <div class="duties__duty">
+                                Написание своей первой postman коллекции с тестами
+                            </div>
+                            <div class="duties__duty">
+                                Участие в разработке linter + template-ms + пакетов + docker-compose
+                            </div>
+                            <div class="duties__duty">
+                                В полной мере осознал как описывать dockerfile
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot table__th">Место работы</td>
+                    <td class="table__spot table__th table__point-name">
                         Автодория
                     </td>
                 </tr>
                 <tr class="table__tr">
                     <td class="table__spot">Период работы</td>
-                    <td class="table__spot">Март 2020 — по настоящее время</td>
+                    <td class="table__spot">Март 2020 — Декабрь 2020</td>
                 </tr>
                 <tr class="table__tr">
                     <td class="table__spot">Должность</td>
