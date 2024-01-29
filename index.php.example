@@ -17,14 +17,11 @@
     <div class="header__info">
         <h1 class="resume__owner">
             <strong>Пестов Максим</strong>,
-            28 лет.
+            29 лет.
         </h1>
         <div class="resume__positions positions">
             <div class="tag positions__position">
-                PHP middle-developer
-            </div>
-            <div class="tag positions__position">
-                Java junior-developer
+                team-lead back-end разработки (php)
             </div>
         </div>
         <hr/>
@@ -97,14 +94,28 @@
             <div class="section__list">
                 <ul class="list">
                     <li class="list__item">
-                        языки программирования: html, css, php, js, mysql, postgresql, python, redis,
+                        языки программирования: html, php, go, js, sql
                         <br/>
-                        rabbitmq, elasticsearch, cockroachdb, grpc, protobuf
                     </li>
+		    <li>
+			Реляционные бд: postgresql, mysql, mariadb, cocroachdb
+		    </li>
+		    <li>
+			Нереляционные бд: redis, clickhouse, elasticsearch
+		    </li>
+		    <li>
+			Брокеры очередей: rabbitmq
+		    </li>
+		    <li>
+			Протколы: http, grpc, rabbitmq, soap, rest, websocket
+		    </li>
                     <li class="list__item">
-                        Изучал: java, kotlin, go
+                        Изучал: java, kotlin, python
                     </li>
                     <li class="list__item">интеграция grpc + protobuf</li>
+                    <li class="list__item">разработка микросервисной архитектуры;</li>
+                    <li class="list__item">разработка пакетных решений;</li>
+                    <li class="list__item">помощь молодым специалистам;</li>
                     <li class="list__item">выполнение проектных задач;</li>
                     <li class="list__item">
                         реализация сложных интеграционных решений;
@@ -117,6 +128,7 @@
                     <li class="list__item">настройка автодеплоя;</li>
                     <li class="list__item">использование, сборка и регистрация docker-image;</li>
                     <li class="list__item">оптимизация базы данных;</li>
+                    <li class="list__item">разработка микросервисной архитектуры;</li>
                     <li class="list__item">японский язык N5;</li>
                     <li class="list__item">технический английский.</li>
                 </ul>
@@ -148,10 +160,24 @@
                             <use href="/src/image/icons/sprite.svg#mysql"/>
                         </svg>
                     </div>
-
                     <div class="skills__skill skill">
                         <svg class="skill__icon">
                             <use href="/src/image/icons/sprite.svg#php"/>
+                        </svg>
+                    </div>
+                    <div class="skills__skill skill">
+                        <svg class="skill__icon">
+                            <use href="/src/image/icons/sprite.svg#postgresql"/>
+                        </svg>
+                    </div>
+                    <div class="skills__skill skill">
+                        <svg class="skill__icon">
+                            <use href="/src/image/icons/sprite.svg#rabbitmq"/>
+                        </svg>
+                    </div>
+                    <div class="skills__skill skill">
+                        <svg class="skill__icon">
+                            <use href="/src/image/icons/sprite.svg#redis"/>
                         </svg>
                     </div>
                 </div>
@@ -174,12 +200,69 @@
     <br/>
     <br/>
     <br/>
-    <br/>
     <section class="resume__section section">
         <h2 class="section__title">Опыт работы</h2>
         <div class="section__description">
             <table class="section__table table">
                 <tbody class="table__body">
+
+                <tr class="table__tr">
+                    <td class="table__spot table__th">Место работы</td>
+                    <td class="table__spot table__th table__point-name">
+                        Совкомбанк
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Период работы</td>
+                    <td class="table__spot">Январь 2021 — по настоящее время</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Должность</td>
+                    <td class="table__spot">Team lead back-end разработки</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Сайт</td>
+                    <td class="table__spot">
+                        <a href="https://sovcombank.ru/">
+                            sovcombank.ru
+                        </a>
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">
+                        <div class="duties">
+                            <div class="duties__duty">Symfony5</div>
+                            <div class="duties__duty">postgresql 13</div>
+                            <div class="duties__duty">redis</div>
+                            <div class="duties__duty">rabbitmq</div>
+                            <div class="duties__duty">jaeger</div>
+                            <div class="duties__duty">greylog</div>
+                            <div class="duties__duty">docker</div>
+                            <div class="duties__duty">
+                                Составление правил code style
+                            </div>
+                            <div class="duties__duty">
+                                Разработка архитектуры микросервисного приложения
+                            </div>
+                            <div class="duties__duty">
+                                Разработка архитектуры бд
+                            </div>
+                            <div class="duties__duty">
+                                Разработка микросервисов
+                            </div>
+                            <div class="duties__duty">
+                                Разработка внутренних пакетных решений
+                            </div>
+                            <div class="duties__duty">
+                                Настройка докер контейнеров
+                            </div>
+                            <div class="duties__duty">
+                                Настройка автотестов на postman
+                            </div>
+                        </div>
+                    </td>
+                </tr>
                 <tr class="table__tr">
                     <td class="table__spot table__th">Место работы</td>
                     <td class="table__spot table__th table__point-name">
