@@ -254,6 +254,11 @@ hr {
     left: 152px;
 }
 
+.skill:nth-child(9) {
+    top: 8px;
+    left: -148px;
+}
+
 .skill:nth-child(odd) svg {
     fill: var(--pink);
 }
