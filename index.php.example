@@ -205,26 +205,25 @@
         <div class="section__description">
             <table class="section__table table">
                 <tbody class="table__body">
-
                 <tr class="table__tr">
                     <td class="table__spot table__th">Место работы</td>
                     <td class="table__spot table__th table__point-name">
-                        Совкомбанк
+                        12Storeez
                     </td>
                 </tr>
                 <tr class="table__tr">
                     <td class="table__spot">Период работы</td>
-                    <td class="table__spot">Январь 2021 — по настоящее время</td>
+                    <td class="table__spot">Октябрь 2023 — по настоящее время</td>
                 </tr>
                 <tr class="table__tr">
                     <td class="table__spot">Должность</td>
-                    <td class="table__spot">Team lead back-end разработки</td>
+                    <td class="table__spot">Руководитель отдела web разработки</td>
                 </tr>
                 <tr class="table__tr">
                     <td class="table__spot">Сайт</td>
                     <td class="table__spot">
-                        <a href="https://sovcombank.ru/">
-                            sovcombank.ru
+                        <a href="https://12storeez.com/">
+                            12storeez.com
                         </a>
                     </td>
                 </tr>
@@ -232,33 +231,89 @@
                     <td class="table__spot">Обязанности</td>
                     <td class="table__spot">
                         <div class="duties">
-                            <div class="duties__duty">Symfony5</div>
-                            <div class="duties__duty">postgresql 13</div>
-                            <div class="duties__duty">redis</div>
-                            <div class="duties__duty">rabbitmq</div>
-                            <div class="duties__duty">jaeger</div>
-                            <div class="duties__duty">greylog</div>
-                            <div class="duties__duty">docker</div>
+                            <div class="duties__duty">Разработка и интеграция процессов Agile</div>
+                            <div class="duties__duty">Согласование и организация работ по техдолгу</div>
                             <div class="duties__duty">
-                                Составление правил code style
+                                Донесение бизнес значимости по задачам в разработку
                             </div>
                             <div class="duties__duty">
-                                Разработка архитектуры микросервисного приложения
+                                Онбординг/Офбординг штатных сотрудников
                             </div>
                             <div class="duties__duty">
-                                Разработка архитектуры бд
+                                Онбординг/Офбординг штатных аутсорса
                             </div>
                             <div class="duties__duty">
-                                Разработка микросервисов
+                                Составление графиков команды
                             </div>
                             <div class="duties__duty">
-                                Разработка внутренних пакетных решений
+                                Проведение и составление технического demo
                             </div>
                             <div class="duties__duty">
-                                Настройка докер контейнеров
+                                Формирование здроовой атмосферы в команде
                             </div>
                             <div class="duties__duty">
-                                Настройка автотестов на postman
+                                Внедрение ci/cd pipeline со статическими анализаторами, тестами и дополнительными проверками, в силу большого legacy
+                            </div>
+                            <div class="duties__duty">
+                                Участие в архитектурном комитете
+                            </div>
+                            <div class="duties__duty">
+                                Согласование дежурств в праздничные дни
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot table__th">Место работы</td>
+                    <td class="table__spot table__th table__point-name">
+                        12Storeez
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Период работы</td>
+                    <td class="table__spot">Март 2023 — Сентябрь 2023</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Должность</td>
+                    <td class="table__spot">Архитектор микросервисной архитектуры</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Сайт</td>
+                    <td class="table__spot">
+                        <a href="https://12storeez.com/">
+                            12storeez.com
+                        </a>
+                    </td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">
+                        <div class="duties">
+                            <div class="duties__duty">Разработка кроссрегиональной архитектуры to be</div>
+                            <div class="duties__duty">Составление roadmap для достижения из as is to be </div>
+                            <div class="duties__duty">
+                                Вникал в бизнес потребности и искал наиболее оптимальные решения
+                            </div>
+                            <div class="duties__duty">
+                                Организация архитектурного коммитета
+                            </div>
+                            <div class="duties__duty">
+                                Написание микросервисов на php
+                            </div>
+                            <div class="duties__duty">
+                                Контрибьютил в go сервисы
+                            </div>
+                            <div class="duties__duty">
+                                Разработал 5 регламентов
+                            </div>
+                            <div class="duties__duty">
+                                Внедрил 2 регламент
+                            </div>
+                            <div class="duties__duty">
+                                Настройка и внедрение локальной среды разработки, средствами docker-compose, .editorconfig, schema.xml для phpstorm
+                            </div>
+                            <div class="duties__duty">
+                                Помощь в иинтеграции phpstan, phpunit, sonarqube в ci/cd golangci-lint
                             </div>
                         </div>
                     </td>
@@ -271,7 +326,7 @@
                 </tr>
                 <tr class="table__tr">
                     <td class="table__spot">Период работы</td>
-                    <td class="table__spot">Май 2021 — по настоящее время</td>
+                    <td class="table__spot">Май 2021 — Март 2023</td>
                 </tr>
                 <tr class="table__tr">
                     <td class="table__spot">Должность</td>
