@@ -1,3 +1,13 @@
+<?php
+
+/**
+* !TODO
+* 1. Добавить больше софта
+* 2. Совместить интеграциии
+* 3. Описать оргструктуру в подчинении
+*/
+?>
+
 <!doctype html>
 <html lang="ru">
 <head>
@@ -47,14 +57,11 @@
     <section class="resume__section section">
         <h2 class="section__title">О себе</h2>
         <div class="section__description">
-            Я уверено чувствую себя в любой ситуации. Всегда готов к переменам.
-            Достигаю поставленных целей. Грамотно подхожу к распределению
-            ресурсов, для достижения конечного результата.
-            Люблю людей, которые любят свою работу. Верю что каждый человек
-            желает развития. Стараюсь избегать стрессовых ситуаций, но так же
-            знаю способы и этапы выхода из них.
-            Всегда готов взять ответственность за сделанную работу.
-            В свободное от работы время, читаю книгу
+            Я уверено чувствую себя в любой ситуации. Отношусь с пониманием и уважением к гибким процессам.
+            Знаю способы и этапы выхода из стрессовых ситуаций. Достигаю поставленных целей. Грамотно подхожу к
+            распределению ресурсов, для достижения конечного результата. Люблю людей, которые любят свою работу.
+            Верю что каждый человек желает развития. Всегда готов взять ответственность за сделанную работу.
+            В свободное от работы время, читаю книгу. Умею планировать своё время и время команды.
             <a href="https://g.co/kgs/6tF9NZ">
                 "Совершенный код"
             </a>; Катаюсь на велосипеде; Люблю розовый цвет.
@@ -91,39 +98,36 @@
     <section class="resume__section section">
         <h2 class="section__title">Навыки</h2>
         <div class="section__description section__description_flex">
-            <div class="section__list">
+            <div class="section__list section-list">
+                <h3 class="section-list__title">Hard skills</h3>
                 <ul class="list">
                     <li class="list__item">
                         языки программирования: html, php, go, js, sql
                         <br/>
                     </li>
-		    <li>
-			Реляционные бд: postgresql, mysql, mariadb, cocroachdb
-		    </li>
-		    <li>
-			Нереляционные бд: redis, clickhouse, elasticsearch
-		    </li>
-		    <li>
-			Брокеры очередей: rabbitmq
-		    </li>
-		    <li>
-			Протколы: http, grpc, rabbitmq, soap, rest, websocket
-		    </li>
-                    <li class="list__item">
-                        Изучал: java, kotlin, python
+                     <li class="list__item">
+                    Реляционные бд: postgresql, mysql, mariadb, cocroachdb
                     </li>
-                    <li class="list__item">интеграция grpc + protobuf</li>
+                    <li class="list__item">
+                    Нереляционные бд: redis, clickhouse, elasticsearch
+                    </li>
+                    <li class="list__item">
+                    Брокеры очередей: rabbitmq
+                    </li>
+                    <li class="list__item">
+                    Протоколы: http, grpc, rabbitmq, soap, rest, websocket
+                    </li>
+                    <li class="list__item">Изучал: java, kotlin, python;</li>
+                    <li class="list__item">интеграция grpc + protobuf;</li>
                     <li class="list__item">разработка микросервисной архитектуры;</li>
                     <li class="list__item">разработка пакетных решений;</li>
                     <li class="list__item">помощь молодым специалистам;</li>
                     <li class="list__item">выполнение проектных задач;</li>
-                    <li class="list__item">
-                        реализация сложных интеграционных решений;
-                    </li>
+                    <li class="list__item">реализация сложных интеграционных решений;</li>
                     <li class="list__item">организация бизнес процессов;</li>
                     <li class="list__item">участие и формирование внутреннего микроклимата в команде;</li>
-                    <li class="list__item">организация и переезд монолита из laravel на symfony</li>
-                    <li class="list__item">внедрение централизованной локальной разработки</li>
+                    <li class="list__item">организация и переезд монолита из laravel на symfony;</li>
+                    <li class="list__item">внедрение централизованной локальной разработки;</li>
                     <li class="list__item">конфигурирование сервера;</li>
                     <li class="list__item">настройка автодеплоя;</li>
                     <li class="list__item">использование, сборка и регистрация docker-image;</li>
@@ -131,6 +135,13 @@
                     <li class="list__item">разработка микросервисной архитектуры;</li>
                     <li class="list__item">японский язык N5;</li>
                     <li class="list__item">технический английский.</li>
+                </ul>
+                <h3 class="section-list__title">Hard skills</h3>
+                <ul class="list">
+                    <li class="list__item">
+                        языки программирования: html, php, go, js, sql
+                        <br/>
+                    </li>
                 </ul>
             </div>
             <div class="skills">
@@ -178,6 +189,11 @@
                     <div class="skills__skill skill">
                         <svg class="skill__icon">
                             <use href="/src/image/icons/sprite.svg#redis"/>
+                        </svg>
+                    </div>
+                    <div class="skills__skill skill">
+                        <svg class="skill__icon">
+                            <use href="/src/image/icons/sprite.svg#go"/>
                         </svg>
                     </div>
                 </div>
@@ -231,16 +247,16 @@
                     <td class="table__spot">Обязанности</td>
                     <td class="table__spot">
                         <div class="duties">
-                            <div class="duties__duty">Разработка и интеграция процессов Agile</div>
+                            <div class="duties__duty">Интеграция и адаптация процессов Agile</div>
                             <div class="duties__duty">Согласование и организация работ по техдолгу</div>
                             <div class="duties__duty">
                                 Донесение бизнес значимости по задачам в разработку
                             </div>
                             <div class="duties__duty">
-                                Онбординг/Офбординг штатных сотрудников
+                                Онбординг/оффбординг штатных сотрудников
                             </div>
                             <div class="duties__duty">
-                                Онбординг/Офбординг аутстафа
+                                Онбординг/оффбординг аутстафа
                             </div>
                             <div class="duties__duty">
                                 Приём артефактов аутсорса
@@ -289,9 +305,6 @@
                             </div>
                             <div class="duties__duty">
                                 Организация и контроль работ по переезду в кубы
-                            </div>
-                            <div class="duties__duty">
-                                Воспитание замены в команде
                             </div>
                             <div class="duties__duty">
                                 Воспитание замены в команде
