@@ -13,7 +13,7 @@
 }
 
 :root {
-    --pink: rgb(249, 144, 225);
+    --pink: rgb(225, 100, 200);
     --white: rgb(255, 255, 255);
     --black: rgb(0, 0, 0);
     --grey: rgb(180, 180, 180);
@@ -62,11 +62,11 @@ hr {
     justify-content: center;
     border-radius: 40px;
     overflow: hidden;
+    padding-top: 40px;
 }
 
 .resume__image {
     max-width: 100%;
-    max-height: 100%;
 }
 
 .header__info {
@@ -257,6 +257,14 @@ hr {
 .skill:nth-child(9) {
     top: 8px;
     left: -148px;
+}
+
+.skill:nth-child(10) {
+    top: 64px;
+    left: 0;
+}
+.skill:nth-child(10) svg{
+    fill: var(--pink);
 }
 
 .skill:nth-child(odd) svg {
