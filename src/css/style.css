@@ -86,7 +86,9 @@ hr {
 }
 
 .tag {
-    background: var(--pink);
+    background: var(--pink) !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
     padding: 8px 16px;
     font-weight: bold;
     color: var(--white);

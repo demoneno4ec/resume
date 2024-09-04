@@ -3,7 +3,7 @@
 /**
  * !TODO
  * 2. Совместить интеграциии
- * 3. Описать оргструктуру в подчинении
+ * 3. Добавить стили списку "оргструктуры"
  */
 
 ?>
@@ -27,7 +27,7 @@
     <div class="header__info">
         <h1 class="resume__owner">
             <strong>Пестов Максим</strong>,
-            29 лет.
+            33 года.
         </h1>
         <div class="resume__positions positions">
             <div class="tag positions__position">
@@ -61,10 +61,11 @@
             Знаю способы и этапы выхода из стрессовых ситуаций. Достигаю поставленных целей. Грамотно подхожу к
             распределению ресурсов, для достижения конечного результата. Люблю людей, которые любят свою работу.
             Верю что каждый человек желает развития. Всегда готов взять ответственность за сделанную работу.
-            В свободное от работы время, читаю книгу. Умею планировать своё время и время команды.
+            В свободное от работы время, читаю книгу
             <a href="https://g.co/kgs/6tF9NZ">
                 "Совершенный код"
-            </a>; Катаюсь на велосипеде; Люблю розовый цвет.
+            </a>. Катаюсь на велосипеде. Люблю розовый цвет. Провожу игровые и не только стримы.
+            Умею планировать своё время и время команды.
             <p>
                 <br/>
                 Ссылка на резюме: <a>https://github.com/demoneno4ec/resume</a>
@@ -105,10 +106,10 @@
                         Языки программирования: html, php, go, js, sql;
                     </li>
                     <li class="list__item">
-                        реляционные бд: postgresql, mysql, mariadb, cocroachdb;
+                        реляционные БД: postgresql, mysql, mariadb, cocroachdb;
                     </li>
                     <li class="list__item">
-                        нереляционные бд: redis, clickhouse, elasticsearch;
+                        нереляционные БД: redis, clickhouse, elasticsearch;
                     </li>
                     <li class="list__item">
                         брокеры очередей: rabbitmq;
@@ -131,7 +132,7 @@
                 </ul>
                 <h3 class="section-list__title">Soft skills</h3>
                 <ul class="list">
-                    <li class="list__item">Построение диалога с бизнес заказчиками и выявление бизнес потребности;</li>
+                    <li class="list__item">Построение диалога с бизнес-заказчиками и выявление бизнес-потребностей;</li>
                     <li class="list__item">планирование техдолга;</li>
                     <li class="list__item">people managment;</li>
                     <li class="list__item">time managment;</li>
@@ -296,7 +297,7 @@
                     </td>
                 </tr>
                 <tr class="table__tr">
-                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">Обязанности&Достижения</td>
                     <td class="table__spot">
                         <div class="duties">
                             <div class="duties__duty">Интеграция и адаптация процессов Agile</div>
@@ -326,7 +327,7 @@
                                 Проведение и составление технического demo
                             </div>
                             <div class="duties__duty">
-                                Формирование здроовой атмосферы в команде ENPS в команде выше среднего по компании
+                                Формирование здоровой атмосферы в команде ENPS в команде выше среднего по компании
                             </div>
                             <div class="duties__duty">
                                 Внедрение ci/cd pipeline со статическими анализаторами, тестами и дополнительными
@@ -392,7 +393,7 @@
                     </td>
                 </tr>
                 <tr class="table__tr">
-                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">Обязанности&Достижения</td>
                     <td class="table__spot">
                         <div class="duties">
                             <div class="duties__duty">Разработка кроссрегиональной архитектуры to be</div>
@@ -413,7 +414,7 @@
                                 Разработал 5 регламентов
                             </div>
                             <div class="duties__duty">
-                                Внедрил 2 регламент
+                                Внедрил 2 регламента
                             </div>
                             <div class="duties__duty">
                                 Настройка и внедрение локальной среды разработки, средствами docker-compose,
@@ -484,7 +485,7 @@
                     </td>
                 </tr>
                 <tr class="table__tr">
-                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">Обязанности&Достижения</td>
                     <td class="table__spot">
                         <div class="duties">
                             <div class="duties__duty">Laravel</div>
@@ -493,7 +494,7 @@
                                 Вникал в бизнес потребности и искал наиболее оптимальные решения
                             </div>
                             <div class="duties__duty">
-                                Участие в арх комитете
+                                Участие в архитектурном комитете
                             </div>
                             <div class="duties__duty">
                                 Написание микросервисов
@@ -573,7 +574,7 @@
                     </td>
                 </tr>
                 <tr class="table__tr">
-                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">Обязанности&Достижения</td>
                     <td class="table__spot">
                         <div class="duties">
                             <div class="duties__duty">Symfony</div>
@@ -633,7 +634,7 @@
                     </td>
                 </tr>
                 <tr class="table__tr">
-                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">Обязанности&Достижения</td>
                     <td class="table__spot">
                         <div class="duties">
                             <div class="duties__duty">Yii2</div>
@@ -681,7 +682,7 @@
                     </td>
                 </tr>
                 <tr class="table__tr">
-                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">Обязанности&Достижения</td>
                     <td class="table__spot">
                         <div class="duties">
                             <div class="duties__duty">laravel</div>
@@ -724,7 +725,7 @@
                     </td>
                 </tr>
                 <tr class="table__tr">
-                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">Обязанности&Достижения</td>
                     <td class="table__spot">
                         Разработка сайтов.
                         Тех поддержка сайтов.
@@ -752,7 +753,7 @@
                     </td>
                 </tr>
                 <tr class="table__tr">
-                    <td class="table__spot">Обязанности</td>
+                    <td class="table__spot">Обязанности&Достижения</td>
                     <td class="table__spot">
                         <ul class="duties">
                             <li class="duties__duty">Поиск ошибок и
@@ -766,7 +767,7 @@
                                 данных.
                             </li>
                             <li class="duties__duty">Написание скриптов на
-                                обновлениеб азы данных на
+                                обновление базы данных на
                                 основе данных из файлов с расширением .csv .xls
                             </li>
                             <li class="duties__duty">Интеграция шаблонов</li>
