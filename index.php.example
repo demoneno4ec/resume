@@ -31,7 +31,13 @@
         </h1>
         <div class="resume__positions positions">
             <div class="tag positions__position">
-                team-lead back-end разработки (php)
+                team-lead разработки
+            </div>
+            <div class="tag positions__position">
+                tech-lead php
+            </div>
+            <div class="tag positions__position">
+                go developer
             </div>
         </div>
         <hr/>
@@ -137,7 +143,7 @@
                     <li class="list__item">people managment;</li>
                     <li class="list__item">time managment;</li>
                     <li class="list__item">проведение perfomance review;</li>
-                    <li class="list__item">организация, проведение и участие во внутренних митапов;</li>
+                    <li class="list__item">организация, проведение и участие во внутренних митапах;</li>
                     <li class="list__item">выступление на внешних митапах;</li>
                     <li class="list__item">интеграция процессов agile;</li>
                     <li class="list__item">проведение PBR</li>
@@ -397,7 +403,7 @@
                     <td class="table__spot">
                         <div class="duties">
                             <div class="duties__duty">Разработка кроссрегиональной архитектуры to be</div>
-                            <div class="duties__duty">Составление roadmap для достижения из as is to be</div>
+                            <div class="duties__duty">Составление roadmap для достижения из as is в to be</div>
                             <div class="duties__duty">
                                 Вникал в бизнес потребности и искал наиболее оптимальные решения
                             </div>
@@ -421,7 +427,7 @@
                                 .editorconfig, schema.xml для phpstorm
                             </div>
                             <div class="duties__duty">
-                                Помощь в иинтеграции phpstan, phpunit, sonarqube в ci/cd golangci-lint
+                                Помощь в интеграции phpstan, phpunit, sonarqube в ci/cd golangci-lint
                             </div>
                         </div>
                     </td>
@@ -582,7 +588,7 @@
                                 Написание микросервисов
                             </div>
                             <div class="duties__duty">
-                                Интеграция с goggle ldap
+                                Интеграция с google ldap
                             </div>
                             <div class="duties__duty">
                                 Интеграция с cockroachdb
@@ -597,7 +603,7 @@
                                 Интеграция с s3
                             </div>
                             <div class="duties__duty">
-                                Интеграция уведомлений sms, email, во внутренний месенджер
+                                Интеграция уведомлений sms, email во внутренний мессенджер
                             </div>
                             <div class="duties__duty">
                                 Написание своей первой postman коллекции с тестами
@@ -667,7 +673,7 @@
                 </tr>
                 <tr class="table__tr">
                     <td class="table__spot">Период работы</td>
-                    <td class="table__spot">Май 2019 — по настоящее время</td>
+                    <td class="table__spot">Май 2019 — Март 2020</td>
                 </tr>
                 <tr class="table__tr">
                     <td class="table__spot">Должность</td>
@@ -727,8 +733,10 @@
                 <tr class="table__tr">
                     <td class="table__spot">Обязанности&Достижения</td>
                     <td class="table__spot">
-                        Разработка сайтов.
-                        Тех поддержка сайтов.
+                        <div class="duties">
+                            <div class="duties__duty">разработка сайтов</div>
+                            <div class="duties__duty">тех поддержка сайтов</div>
+                        </div>
                     </td>
                 </tr>
                 <tr class="table__tr">
@@ -768,7 +776,7 @@
                             </li>
                             <li class="duties__duty">Написание скриптов на
                                 обновление базы данных на
-                                основе данных из файлов с расширением .csv .xls
+                                основе данных из файлов с расширением .csv, .xls
                             </li>
                             <li class="duties__duty">Интеграция шаблонов</li>
                             <li class="duties__duty">Написание собственных
