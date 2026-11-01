@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design system — Senior Backend Resume.
+   Palette: deep slate background + teal accent. All HSL. */
+
+@layer base {
+  :root {
+    --background: 222 47% 7%;
+    --foreground: 210 40% 96%;
+
+    --card: 222 40% 10%;
+    --card-foreground: 210 40% 96%;
+
+    --popover: 222 40% 10%;
+    --popover-foreground: 210 40% 96%;
+
+    --primary: 173 80% 40%;            /* teal accent */
+    --primary-foreground: 222 47% 7%;
+    --primary-glow: 173 75% 55%;
+
+    --secondary: 217 32% 17%;
+    --secondary-foreground: 210 40% 96%;
+
+    --muted: 217 25% 15%;
+    --muted-foreground: 215 18% 65%;
+
+    --accent: 173 80% 40%;
+    --accent-foreground: 222 47% 7%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 30% 18%;
+    --input: 217 30% 18%;
+    --ring: 173 80% 40%;
+
+    --radius: 0.75rem;
+
+    --gradient-hero: radial-gradient(1000px 600px at 20% 10%, hsl(173 80% 40% / 0.18), transparent 60%),
+                     radial-gradient(800px 500px at 80% 0%, hsl(190 80% 45% / 0.12), transparent 60%);
+    --gradient-accent: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --shadow-soft: 0 20px 60px -20px hsl(173 80% 25% / 0.35);
+
+    --sidebar-background: 222 47% 7%;
+    --sidebar-foreground: 210 40% 96%;
+    --sidebar-primary: 173 80% 40%;
+    --sidebar-primary-foreground: 222 47% 7%;
+    --sidebar-accent: 217 32% 17%;
+    --sidebar-accent-foreground: 210 40% 96%;
+    --sidebar-border: 217 30% 18%;
+    --sidebar-ring: 173 80% 40%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "cv11";
+    background-image: var(--gradient-hero);
+    background-attachment: fixed;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-md border border-border bg-card/60 px-2.5 py-1 text-xs text-foreground/85;
+  }
+  .section-title {
+    @apply text-xs font-mono uppercase tracking-[0.2em] text-primary;
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 11mm 12mm;
+  }
+
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 10%;
+    --card: 0 0% 100%;
+    --muted-foreground: 215 15% 35%;
+    --border: 215 20% 82%;
+    --primary: 173 80% 25%;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    font-size: 9pt;
+  }
+
+  body {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  main [style] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+
+  .container {
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+  #top {
+    padding: 0 0 5mm !important;
+  }
+
+  #top .grid {
+    display: block;
+  }
+
+  #top h1 {
+    margin-top: 2mm !important;
+    font-size: 27pt !important;
+  }
+
+  #top h1 + p {
+    margin-top: 3mm !important;
+    font-size: 11pt !important;
+    line-height: 1.45 !important;
+  }
+
+  #top .mt-8 {
+    margin-top: 3mm !important;
+  }
+
+  main section:not(#top) {
+    padding: 0 0 5mm !important;
+  }
+
+  main section .mb-8 {
+    margin-bottom: 3mm !important;
+  }
+
+  main section .mt-8 {
+    margin-top: 3mm !important;
+  }
+
+  main section h2 {
+    font-size: 16pt !important;
+  }
+
+  #projects .grid,
+  #skills .grid,
+  #education .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5mm !important;
+  }
+
+  .rounded-xl {
+    break-inside: avoid;
+    padding: 3mm !important;
+    background: #fff !important;
+  }
+
+  .chip {
+    padding: 0.7mm 1.5mm !important;
+    font-size: 7pt !important;
+    background: #fff !important;
+  }
+
+  #experience article {
+    break-inside: avoid;
+    padding-bottom: 4mm !important;
+  }
+
+  #experience article:nth-child(4) {
+    break-before: page;
+  }
+
+  #experience article ul {
+    font-size: 8.5pt !important;
+  }
+
+  #experience article .mt-4 {
+    display: none !important;
+  }
+
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .text-gradient {
+    color: hsl(var(--primary)) !important;
+    background: none !important;
+  }
+
+  #about,
+  #contact {
+    display: none !important;
+  }
+
+  #talks .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5mm !important;
+  }
+}
