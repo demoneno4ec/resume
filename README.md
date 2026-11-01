@@ -1,3 +1,4 @@
-# Welcome to your Lovable project
+# Запустить локально
 
-TODO: Document your project here
+- npm install
+- npm run dev
